@@ -1,5 +1,5 @@
 .PHONY: build
-build:
+build: env
 	docker-compose build
 
 .PHONY: run

@@ -9,10 +9,6 @@ To run:
 make build
 ```
 
-```
-make env
-```
-
 (and then update the .env file as you wish!)
 
 ```
