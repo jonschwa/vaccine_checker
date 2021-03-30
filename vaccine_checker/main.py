@@ -8,7 +8,7 @@ def send_nys_webhook(site):
 
     url = os.getenv("SLACK_WEBHOOK_URL")
     payload = {
-        "text": f"(STILL TESTING :coolcry:) HOLY CRAP! {site['providerName']} ({site['vaccineBrandFullName']}): {'Has appointments!'}\n Sign up at <{site.get('3rdPartyURL')}>"
+        "text": f"HOLY CRAP!!! {site['providerName']} ({site['vaccineBrandFullName']}): {'Has appointments!'}\n Sign up at <{site.get('3rdPartyURL')}>"
     }
     requests.request("POST", url, data=json.dumps(payload))
 
