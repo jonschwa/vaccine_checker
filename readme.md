@@ -1,6 +1,7 @@
 # Vaccine Checker!
 
-Polls 3 NYC vaccine sites over and over and notifies via slack when appointments are available.
+Polls NYC vaccine sites over and over and notifies via slack when appointments are available.
+@ todo - add more sites!
 
 To run:
 
